@@ -239,8 +239,6 @@ var getDelta = function(direction) {
     };
 
     this.move = function(apple) {
-        // don't move unless the frame number is a
-        // multiple of GAME_SPEED
         if (frameCount % GAME_SPEED !== 0) {
             return;
         }
